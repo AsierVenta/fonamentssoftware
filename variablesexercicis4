@@ -1,0 +1,25 @@
+###
+# Exercicis - variables
+# Completa els exercicis següents creant i utilitzant variables.
+###
+
+# Exercici 1
+# Crea variables per desar el nom d'un encaminador, la seva ubicació,
+# el nombre de ports i si està encès. Mostra les dades en una frase
+# utilitzant una f-string.
+nom_encaminador = input("Introdueix el nom de l'encaminador: ")
+ubicacio_encaminador = input("Introdueix la ubicació de l'encaminador: ")
+num_ports = int(input("Introdueix el nombre de ports de l'encaminador: "))
+esta_ences = input("L'encaminador està encès? (sí/no): ")
+if esta_ences.lower() == "sí":
+    print(f"L'encaminador {nom_encaminador} està ubicat a {ubicacio_encaminador}, té {num_ports} ports")
+
+# Exercici 2
+# Crea variables per desar els GB inclosos en un pla de dades mòbils
+# i els GB consumits. Calcula quants GB queden i mostra el resultat.
+# Després, actualitza el consum amb un valor nou i torna a calcular
+# quants GB queden.
+gb_inclosos = float(input("Introdueix els GB inclosos en el pla de dades: "))
+gb_consumits = float(input("Introdueix els GB consumits: "))
+gb_restants = gb_inclosos - gb_consumits
+print(f"Queden {gb_restants} GB del pla de dades.")
