@@ -3,8 +3,10 @@
 # Completa els exercicis següents utilitzant la funció print()
 ###
 
+
 # Exercici 1
 # Imprimeix el teu nom i cognom a la consola
+
 print("El meu nom és Asier")
 
 # Exercici 2
